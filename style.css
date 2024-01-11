@@ -46,6 +46,16 @@ body {
     margin: 0;
 }
 
+.choice-services__list::-webkit-scrollbar {
+    widht: 0;
+  display: none;
+}
+
+.choice-services__list {
+  -ms-overflow-style: none;  /* IE и Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -201,7 +211,7 @@ body {
     list-style-type: none;
     align-items: center;
     padding-left: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 
 .choice-services__link {
