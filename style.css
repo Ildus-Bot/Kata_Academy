@@ -44,6 +44,8 @@ html {
 
 body {
     margin: 0;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .choice-services__list::-webkit-scrollbar {
